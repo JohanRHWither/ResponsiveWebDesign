@@ -1,0 +1,102 @@
+/* This is the main CSS file for the styling of the project. */
+
+/* The body of the webpage has a width of 100% of the viewport's width,
+height of 100vh (100% of the viewport's height), and has no margin. The
+background color is #1b1b32 and the text color is #f5f6f7. The font family is
+Tahoma and the font size is 16px. */
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  
+  /* The h1 and p elements have a margin of 1em and are centered. */
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  /* The form element has a width of 60vw (60% of the viewport's width) with a
+maximum width of 500px and a minimum width of 300px. It is centered and has
+padding at the bottom of 2em. */
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  /* The fieldset elements have no border and have a padding of 2rem at the bottom.
+The last fieldset has no bottom border. */
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  /* The label elements display as blocks and have a margin of 0.5rem at the top. */
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  /* The input, textarea, and select elements have a margin of 10px at the top and
+no margin at the left or right. They have a width of 100% and a minimum height of 2em. */
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  /* The input and textarea elements have a background color of #0a0a23, border color of
+#0a0a23, and text color of #ffffff. */
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  /* The .inline class has no width and has a margin of 0.5em at the left and right. */
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+  }
+  
+  /* The input[type="submit"] element has a display of block, width of 60%, and is centered.
+It has a height of 2em, font size of 1.1rem, background color of #3b3b4f, border color of white,
+and a minimum width of 300px. */
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  /* The input[type="file"] element has a padding of 1px 2px. */
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  /* The .inline class is displayed inline. */
+  .inline{
+    display: inline; 
+  }
+  
+  /* The a elements have a color of #dfdfe2. */
+  a {
+    color: #dfdfe2;
+  }

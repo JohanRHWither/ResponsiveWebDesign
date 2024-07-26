@@ -1,0 +1,57 @@
+/* CSS styles for the capsule logo on the home page */
+
+/* Center align the header */
+h1 {
+    text-align: center;
+  }
+  
+  /* Define the container for the capsule logo */
+  .container {
+    background-color: rgb(255, 255, 255); /* White background */
+    padding: 10px 0; /* Add padding to the top and bottom of the container */
+  }
+  
+  /* Define the capsule marker */
+  .marker {
+    width: 200px; /* Set the width of the marker */
+    height: 25px; /* Set the height of the marker */
+    margin: 10px auto; /* Center the marker horizontally */
+  }
+  
+  /* Define the cap of the marker */
+  .cap {
+    width: 60px; /* Set the width of the cap */
+    height: 25px; /* Set the height of the cap */
+  }
+  
+  /* Define the sleeve of the marker */
+  .sleeve {
+    width: 110px; /* Set the width of the sleeve */
+    height: 25px; /* Set the height of the sleeve */
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color of the sleeve to a semi-transparent white */
+    border-left: 10px double rgba(0, 0, 0, 0.75); /* Add a double border on the left side of the sleeve */
+  }
+  
+  /* Define the display style of the cap and sleeve */
+  .cap, .sleeve {
+    display: inline-block; /* Display the cap and sleeve inline */
+  }
+  
+  /* Define the styles for the red capsule */
+  .red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27)); /* Set the background gradient for the red capsule */
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8); /* Add a shadow to the red capsule */
+  }
+  
+  /* Define the styles for the green capsule */
+  .green {
+    background: linear-gradient(#55680D, #71F53E, #116C31); /* Set the background gradient for the green capsule */
+    box-shadow: 0 0 20px 0 #3B7E20CC; /* Add a shadow to the green capsule */
+  }
+  
+  /* Define the styles for the blue capsule */
+  .blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%)); /* Set the background gradient for the blue capsule */
+    box-shadow: 0 0 20px 0 hsla(223,59%,31%,0.8); /* Add a shadow to the blue capsule */
+  }
+  

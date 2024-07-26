@@ -1,0 +1,238 @@
+* {
+    font-size: 16px;
+}
+
+.separator {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    border: #05060f0a 1px solid;
+    border-radius: 30%;
+}
+
+
+#imgbosses {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#imgbosses img {
+    width: 100%;
+    height: 100%;
+}
+
+#navheader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #header {
+    display: flex;
+    align-items: center;
+  }
+  
+  #header-img {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+
+
+  #header {
+    font-family: 'Bona Nova SC', sans-serif; 
+    font-size: 35px;
+    color: black;
+  }
+  
+  #nav-bar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    gap: 20px;
+    left: 400px;
+    width: 100%;
+    background-color: #ffffff; /* Replace with your desired background color */
+    z-index: 1000; /* Adjust the z-index as needed to ensure it appears above other content */
+  }
+  
+  .nav_link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav_link:hover {
+    background-color: rgb(227, 225, 225);
+    border-radius: 50%;
+    border: rgb(227, 225, 225) 10px solid;
+    font-size: 17px;
+  }
+
+  /* BUTTOM SUBMIT */
+
+  button {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", "Courier New", monospace;
+    font-size: 17px;
+    padding: 10px 10px;
+    font-weight: 500;
+    background: #1f2937;
+    color: white;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.6em;
+    cursor: pointer;
+    width:100%;
+  }
+  
+  .gradient {
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    left: 0;
+    top: 0;
+    border-radius: 0.6em;
+    margin-top: -0.25em;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3)
+    );
+  }
+  
+  .label {
+    position: relative;
+    top: -1px;
+  }
+  
+  .transition {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 500ms;
+    background-color: rgba(135, 65, 57, 0.6);
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button:hover .transition {
+    width: 14em;
+    height: 14em;
+  }
+  
+  button:active {
+    transform: scale(0.97);
+  }
+
+  /* EMAIL INPUT */
+
+  input[type="email"] {
+    width: 500px;
+  }
+
+  .input {
+    max-width: 300px;
+    height: 44px;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .label1 {
+    display: block;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #05060f99;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .input:hover, .input:focus, .input-group:hover .input {
+    outline: none;
+    border-color: #05060f;
+  }
+  
+  .input-group:hover .label, .input:focus {
+    color: #05060fc2;
+  }
+
+  @media only screen and (max-width: 600px) {
+    * {
+        font-size: 10px;
+    }
+  }
+
+  /* General Styles */
+  body {
+    font-family: sans-serif; /* Choose a nice, clean sans-serif font */
+    margin: 1px;
+    padding: 10px; /* Add some padding for visual breathing room */
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px; /* Add spacing between headings */
+  }
+  
+  /* Form Styling */
+  #form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Add space after the form */
+  }
+  
+  .input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px; /* Add a subtle rounded corner */
+  }
+  
+  .label1 {
+    margin-right: 10px; /* Add space between label and input */
+  }
+  
+  /* Section Styling */
+  section {
+    margin-bottom: 40px; /* Add space between sections */
+    border-bottom: 1px solid #ddd; /* Subtle separator */
+    padding-bottom: 20px;
+  }
+  
+  /* Selective Bolding */
+  h1, h2 {
+    font-weight: bold; /* Make all h1 and h2 elements bold by default */
+  }
+  
+  p {
+    font-weight: normal; /* Reset font weight to normal for paragraphs */
+    line-height: 1.5; /* Adjust line height for better readability */
+  }
+  
+  em {
+    font-weight: bold; /* Make emphasis elements (italic) bold */
+    font-family: 'Bona Nova SC', serif;
+    margin: 5px;
+  }
+  
+  /* Specific element styles (optional) */
+  #video {
+    margin-top: 20px; /* Add space above the video */
+  }
+  
+  #weapons {
+    width: 100%; /* Ensure image fills the available space */
+  }
+
+  li {
+    margin-top: 5px;;
+    font-weight: normal;
+  }

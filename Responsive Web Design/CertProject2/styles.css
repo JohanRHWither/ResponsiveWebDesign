@@ -1,0 +1,106 @@
+img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    display: block;
+    margin: 40px auto;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* Resetting default browser styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Set a common font */
+    background-color: #f6f6f6; /* Light background color */
+    color: #333; /* Text color */
+    line-height: 1.6; /* Line height for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    max-width: 800px; /* Limit maximum width for content */
+    margin: 0 auto; /* Center content */
+    padding: 20px;
+}
+
+#title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#img-div {
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#tribute-info {
+    margin-top: 30px;
+}
+
+#quote {
+    background-color: #f9f9f9;
+    border-left: 5px solid #07a;
+    padding: 10px 20px;
+}
+
+#quote p {
+    margin: 0;
+}
+
+#quote cite {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    text-align: right;
+}
+
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #07a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
